@@ -1,0 +1,29 @@
+.tabs {
+  &.vertical {
+    display: flex;
+    flex-direction: column;
+    .tab {
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+      cursor: pointer;
+      &.active {
+        background-color: #f1f1f1;
+      }
+    }
+  }
+  &.horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .tab {
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+      cursor: pointer;
+      &.active {
+        background-color: #f1f1f1;
+      }
+    }
+  }
+}

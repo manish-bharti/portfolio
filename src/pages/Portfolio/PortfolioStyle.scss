@@ -1,0 +1,24 @@
+.layout-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  // left-sde element should stick even right side is scrolled
+  .left-side {
+    width: 50%;
+    // background-color: pink;
+    // max-height: 100vh;
+    position: sticky;
+    top: 0px;
+    overflow: auto; // Ensure content inside left-side can be scrolled if needed
+  }
+  .right-side {
+    width: 50%;
+    // background-color: lightcoral;
+    // height: 200vh;
+    overflow-y: auto; // Make right-side scrollable
+  }
+}
+// .check {
+//   height: 1000px;
+//   background-color: red;
+// }
