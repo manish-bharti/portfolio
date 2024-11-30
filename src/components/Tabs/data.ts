@@ -1,11 +1,10 @@
 export interface Tab {
-    id: string;
-    name: string;
+  id: string;
+  name: string;
 }
 
 export const tabs: Tab[] = [
-    { id: 'Home', name: 'Home' },
-    { id: 'About', name: 'About' },
-    { id: 'Services', name: 'Services' },
-    { id: 'Contact', name: 'Contact' }
+  { id: "About", name: "About" },
+  { id: "Experience", name: "Experience" },
+  { id: "Project", name: "Project" },
 ];

@@ -7,6 +7,10 @@
       text-align: center;
       padding: 10px;
       cursor: pointer;
+      &.current {
+        color: "red";
+        font-size: 28px;
+      }
       &.active {
         background-color: #f1f1f1;
       }
@@ -21,6 +25,10 @@
       text-align: center;
       padding: 10px;
       cursor: pointer;
+      &.current {
+        color: "red";
+        font-size: 28px;
+      }
       &.active {
         background-color: #f1f1f1;
       }
