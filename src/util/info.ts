@@ -17,7 +17,7 @@ export const aboutSection: string = `<p>
                                       </p>
                                       <p>
                                       Currently I'm Senior Software Engineer at <strong>Doselect</strong>
-                                      specializing in performance and accessibility in both desktop and web application.
+                                      specializing in performance and accessibility in both desktop and web application(Client side).
                                       </p>
                                       <p>
                                       In the past I've had oppurtunity to work on some amazing projects ie 
@@ -25,6 +25,9 @@ export const aboutSection: string = `<p>
                                       improving accessibility and SEO, reducing bundle size and improving 
                                       lighthouse 
                                       performance.  
+                                      </p>
+                                      <p>
+                                      Build special AMP pages to boost google page rank and improve SEO.
                                       </p>
                                                                     
 
