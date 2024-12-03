@@ -1,5 +1,6 @@
 import React from "react";
 import "./SocialMediaLinksStyle.scss";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const SocialMediaLinks: React.FC = () => {
   return (
@@ -9,28 +10,28 @@ const SocialMediaLinks: React.FC = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Facebook
+        <FaFacebook size={16} />
       </a>
       <a
         href="https://www.twitter.com"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Twitter
+        <FaTwitter size={16} />
       </a>
       <a
         href="https://www.instagram.com"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Instagram
+        <FaInstagram size={16} />
       </a>
       <a
         href="https://www.linkedin.com"
         target="_blank"
         rel="noopener noreferrer"
       >
-        LinkedIn
+        <FaLinkedin size={16} />
       </a>
     </div>
   );
