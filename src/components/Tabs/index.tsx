@@ -13,7 +13,7 @@ const Tabs: React.FC<TabProps> = ({ orientaion, currentTab }) => {
       {tabs.map((tab) => (
         <div
           key={tab.id}
-          className={`tab ${currentTab === tab.id && "current"}`}
+          className={`tab ${currentTab === tab.id ? "current" : ""}`}
         >
           {tab.name}
         </div>

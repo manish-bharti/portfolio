@@ -1,7 +1,6 @@
 interface InfoData {
   title: string;
   subTitle: string;
-  introLine: string;
 }
 
 export const longText: string =
@@ -36,6 +35,4 @@ export const aboutSection: string = `<p>
 export const personnelInfo: InfoData = {
   title: "Manish Bharti",
   subTitle: "AI Enthusiast + Full Stack Developer",
-  introLine:
-    "I am a Full Stack Developer with a passion for AI and Machine Learning. I have experience in developing web applications. I am also interested in AI and Machine Learning and have worked on projects related to the same.",
 };

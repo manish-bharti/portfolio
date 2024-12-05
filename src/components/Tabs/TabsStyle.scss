@@ -2,35 +2,85 @@
   &.vertical {
     display: flex;
     flex-direction: column;
+    align-items: flex-start; // Align tabs to the left
     .tab {
       flex: 1;
-      text-align: center;
-      padding: 10px;
+      text-align: left; // Align text to the left
+      padding: 15px;
       cursor: pointer;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      transition: color 0.3s, transform 0.3s;
+      color: white;
+
       &.current {
-        color: "red";
-        font-size: 28px;
+        color: #ffcc00; // Gold color for the current tab
+        font-size: 1.2em;
+        transform: scale(1.05);
+        position: relative;
       }
+
+      &.current::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -5px;
+        width: 0;
+        height: 2px;
+        background-color: #ffcc00; // Gold color for the underline
+        transition: width 0.3s, left 0.3s;
+      }
+
+      &.current:hover::after {
+        width: 100%;
+        left: 0;
+      }
+
       &.active {
-        background-color: #f1f1f1;
+        color: #ffcc00; // Gold color for the active tab
       }
     }
   }
+
   &.horizontal {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start; // Align tabs to the left
     align-items: center;
     .tab {
       flex: 1;
-      text-align: center;
-      padding: 10px;
+      text-align: left; // Align text to the left
+      padding: 15px;
       cursor: pointer;
+      border-radius: 5px;
+      margin-right: 10px;
+      transition: color 0.3s, transform 0.3s;
+      color: white;
+
       &.current {
-        color: "red";
-        font-size: 28px;
+        color: #ffcc00; // Gold color for the current tab
+        font-size: 1.2em;
+        transform: scale(1.05);
+        position: relative;
       }
+
+      &.current::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -5px;
+        width: 0;
+        height: 2px;
+        background-color: #ffcc00; // Gold color for the underline
+        transition: width 0.3s, left 0.3s;
+      }
+
+      &.current:hover::after {
+        width: 100%;
+        left: 0;
+      }
+
       &.active {
-        background-color: #f1f1f1;
+        color: #ffcc00; // Gold color for the active tab
       }
     }
   }
