@@ -1,22 +1,14 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { aboutSection } from "../../util/info";
-import useOnScreen from "../../hooks/useOnScreen";
 
 interface AboutProps {
-  setActiveTab: (tab: string) => void;
+  // Remove setActiveTab from props
 }
 
-const About: React.FC<AboutProps> = ({ setActiveTab }) => {
-  const [ref, isIntersecting] = useOnScreen({ rootMargin: "0px 0px -50% 0px" });
-
-  useEffect(() => {
-    if (isIntersecting) {
-      setActiveTab("About");
-    }
-  }, [isIntersecting, setActiveTab]);
-
+const About: React.FC<AboutProps> = () => {
   return (
-    <div ref={ref}>
+    <div>
+      <h2 style={{ position: 'sticky', top: '0' }}>About</h2>
       <div dangerouslySetInnerHTML={{ __html: aboutSection }} />
     </div>
   );

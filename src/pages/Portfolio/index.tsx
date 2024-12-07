@@ -1,16 +1,14 @@
 import React, { useState } from "react";
 import "./PortfolioStyle.scss";
 import { personnelInfo } from "../../util/info";
-import Tabs from "../../components/Tabs";
 import SocialMediaLinks from "../../components/SocialMediaLinks";
 import About from "./About";
 import Experience from "./Experience";
 import Project from "./Project";
+import Education from "./Education"; // Import the Education component
 import { FaArrowCircleRight } from "react-icons/fa"; // Import the icon
 
 const Portfolio: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<string>("");
-  console.log(activeTab);
   return (
     <>
       <div className="layout-container">
@@ -27,14 +25,14 @@ const Portfolio: React.FC = () => {
               <FaArrowCircleRight />
             </a>
           </div>
-          <Tabs orientaion="vertical" currentTab={activeTab} />
           <SocialMediaLinks />
         </div>
 
         <div className="right-side">
-          <About setActiveTab={setActiveTab} />
-          <Experience setActiveTab={setActiveTab} />
-          <Project setActiveTab={setActiveTab} />
+          <About />
+          <Education />
+          <Experience />
+          <Project />
         </div>
       </div>
     </>

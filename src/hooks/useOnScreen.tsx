@@ -7,7 +7,13 @@ const useOnScreen = (options: IntersectionObserverInit) => {
   useEffect(() => {
     const observer = new IntersectionObserver(([entry]) => {
       console.log(entry);
-      setIntersecting(entry.isIntersecting);
+      if (
+        entry.boundingClientRect.top > 0 &&
+        entry.boundingClientRect.top < 10
+      ) {
+        setIntersecting(true);
+      }
+      // setIntersecting(entry.isIntersecting);
     }, options);
 
     if (ref.current) {
