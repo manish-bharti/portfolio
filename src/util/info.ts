@@ -22,5 +22,5 @@ export const aboutSection: string = `<p>
 
 export const personnelInfo: InfoData = {
   title: "Manish Bharti",
-  subTitle: "AI Enthusiast + Full Stack Developer",
+  subTitle: "Applied AI + Full Stack Developer",
 };
