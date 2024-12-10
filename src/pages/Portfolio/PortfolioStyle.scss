@@ -52,5 +52,33 @@
       border-left: 5px solid #ff6600;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
+    .experience-container {
+      .experience-card {
+        padding: 8px 20px;
+        margin: 40px 0;
+        box-shadow: 0px 0px 6px 2px #ededed;
+        .experience-title {
+          display: flex; /* Enables flexbox layout */
+          align-items: center; /* Vertically aligns text and image */
+          justify-content: space-between; /* Pushes the image to the end */
+          .company-logo {
+            margin-left: auto; /* Ensures the image is placed at the end */
+          }
+        }
+      }
+      .experience-technologies {
+        .experience-chip {
+          border: 1px solid #ff9800;
+          text-decoration: wavy;
+          border-radius: 8px;
+          padding: 4px 8px;
+
+          display: inline-block;
+          text-align: center;
+          margin: 5px 8px 5px 0px;
+          font-weight: 500;
+        }
+      }
+    }
   }
 }

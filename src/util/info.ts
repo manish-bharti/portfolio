@@ -1,3 +1,6 @@
+import NaukriLogo from "../assets/images/Naukri.svg";
+import DoselectLogo from "../assets/images/Doselect.webp";
+
 interface InfoData {
   title: string;
   subTitle: string;
@@ -24,3 +27,57 @@ export const personnelInfo: InfoData = {
   title: "Manish Bharti",
   subTitle: "Applied AI + Full Stack Developer",
 };
+
+export const experience = [
+  {
+    timeperiod: "May 2023 - Present",
+    title: "Senior Software Engineer",
+    company: "Doselect By Naukri",
+    logoSrc: DoselectLogo,
+    description: "Developed scalable web applications using React and Node.js.",
+    technologies: [
+      "React",
+      "Web Worker",
+      "Electron.Js",
+      "Node.js",
+      "Redis",
+      "TypeScript",
+      "Docker",
+      "Nginx",
+      "AWS",
+      "ELK",
+      "Redux toolkit",
+    ],
+  },
+  {
+    timeperiod: "May 2022 - May 2023",
+    title: "Software Engineer",
+    company: "Naukri.com",
+    logoSrc: NaukriLogo,
+    description: "Worked on mobile applications and backend services.",
+    technologies: [
+      "NextJs",
+      "Redux",
+      "ReactJs",
+      "Material-Ui",
+      "Webpack",
+      "Javascript",
+      "Jest & Enzyme",
+    ],
+  },
+  {
+    timeperiod: "Jan 2022 - May 2022",
+    title: "Software Engineer",
+    company: "Naukri.com",
+    logoSrc: NaukriLogo,
+    description: "Worked on mobile applications and backend services.",
+    technologies: [
+      "AMP",
+      "Lighthouse",
+      "Minification",
+      "Bundle size",
+      "Site.map",
+      "Robots.txt",
+    ],
+  },
+];
