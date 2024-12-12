@@ -34,7 +34,8 @@ export const experience = [
     title: "Senior Software Engineer",
     company: "Doselect By Naukri",
     logoSrc: DoselectLogo,
-    description: "Developed scalable web applications using React and Node.js.",
+    description:
+      "Worked on Perfomance Enhancement by using modern Javascript techniques ie web workers , migrating some tasks to low prioirty , Resource optimization , Performance monitoring \n\nBuild cross platform desktop application for Windows, Linux, Mac to integrate web application inside Electron js with more focus on proctoring over candidate's environment",
     technologies: [
       "React",
       "Web Worker",
@@ -54,7 +55,8 @@ export const experience = [
     title: "Software Engineer",
     company: "Naukri.com",
     logoSrc: NaukriLogo,
-    description: "Worked on mobile applications and backend services.",
+    description:
+      "Worked on migrating wordpress frontend to ReactJs to improve perfomance and user experience and SEO. Build custom react components and styling packages.\n\nMigrate the whole candidate experience from Angular-1.2 to React-16 to improve customization and performance.",
     technologies: [
       "NextJs",
       "Redux",
@@ -67,10 +69,11 @@ export const experience = [
   },
   {
     timeperiod: "Jan 2022 - May 2022",
-    title: "Software Engineer",
+    title: "Internship",
     company: "Naukri.com",
     logoSrc: NaukriLogo,
-    description: "Worked on mobile applications and backend services.",
+    description:
+      "Worked on Web application and learning their major flows \n\nResearch on increasing Lighthouse Score, Google Rank and other SEO parameters to boost organic traffic on across Naukri pages \n\nWorked on special AMP pages from mobile applications",
     technologies: [
       "AMP",
       "Lighthouse",

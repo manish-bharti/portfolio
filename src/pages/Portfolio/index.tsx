@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./PortfolioStyle.scss";
 import { personnelInfo } from "../../util/info";
 import SocialMediaLinks from "../../components/SocialMediaLinks";
@@ -7,6 +7,7 @@ import Experience from "./Experience";
 import Project from "./Project";
 import Education from "./Education"; // Import the Education component
 import { FaArrowCircleRight } from "react-icons/fa"; // Import the icon
+import Carousel from "../../components/Carousel"; // Import the Carousel component
 
 const Portfolio: React.FC = () => {
   return (
@@ -25,6 +26,7 @@ const Portfolio: React.FC = () => {
               <FaArrowCircleRight />
             </a>
           </div>
+          <Carousel /> {/* Add Carousel component */}
           <SocialMediaLinks />
         </div>
 

@@ -17,7 +17,7 @@ const Experience: React.FC = () => {
             />
           </h3>
           <p className="experience-time">{exp.timeperiod}</p>
-          <p className="experience-description">{exp.description}</p>
+          <pre className="experience-description">{exp.description}</pre>
           <div className="experience-technologies">
             {exp.technologies.map((tech, idx) => (
               <i key={idx} className="experience-chip">

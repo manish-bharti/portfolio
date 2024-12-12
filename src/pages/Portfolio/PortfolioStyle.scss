@@ -9,6 +9,12 @@
     position: sticky;
     top: 0px;
     overflow: auto; // Ensure content inside left-side can be scrolled if needed
+    scrollbar-width: none; // For Firefox
+    -ms-overflow-style: none; // For Internet Explorer and Edge
+
+    &::-webkit-scrollbar {
+      display: none; // For Chrome, Safari, and Opera
+    }
     .work-links-container {
       a {
         display: block; // Make each link appear on a new line
@@ -64,6 +70,10 @@
           .company-logo {
             margin-left: auto; /* Ensures the image is placed at the end */
           }
+        }
+        pre.experience-description {
+          white-space: pre-wrap; // Ensure text inside pre tag wraps
+          word-wrap: break-word; // Break long words to prevent overflow
         }
       }
       .experience-technologies {
