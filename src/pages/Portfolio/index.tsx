@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router"; // Import Link from react-router
 import "./PortfolioStyle.scss";
 import { personnelInfo } from "../../util/info";
 import SocialMediaLinks from "../../components/SocialMediaLinks";
@@ -17,14 +18,14 @@ const Portfolio: React.FC = () => {
           <h1>{personnelInfo.title}</h1>
           <h3>{personnelInfo.subTitle}</h3>
           <div className="work-links-container">
-            <a href="AI">
+            <Link to="/portfolio/expertise?tab=aiMl">
               Explore my expertise in <b>Artificial Intelligence</b>
               <FaArrowCircleRight />
-            </a>
-            <a href="#FULLSTACK">
+            </Link>
+            <Link to="/portfolio/expertise?tab=fullStack">
               Discover my work in <b>Full Stack Development</b>
               <FaArrowCircleRight />
-            </a>
+            </Link>
           </div>
           <Carousel /> {/* Add Carousel component */}
           <SocialMediaLinks />
@@ -34,7 +35,6 @@ const Portfolio: React.FC = () => {
           <About />
           <Education />
           <Experience />
-          <Project />
         </div>
       </div>
     </>
