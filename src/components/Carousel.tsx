@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./CarouselStyle.scss"; // Import the carousel styles
 import ReactMeetup from "../assets/images/ReactMeetup.jpg"; // Import the new image
 import TeamAward from "../assets/images/TeamAward.jpg"; // Import the new image
+import Q4Award from "../assets/images/Q4Award.jpg"; // Import the new image
 
 const Carousel: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -29,7 +30,7 @@ const Carousel: React.FC = () => {
           <div className="description">Description for Slide 2</div>
         </div>
         <div className="carousel-item">
-          <img src={ReactMeetup} alt="Slide 3" />
+          <img src={Q4Award} alt="Slide 3" />
           <div className="description">Description for Slide 3</div>
         </div>
       </div>
