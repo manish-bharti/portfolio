@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2834e50b.css",
-    "main.js": "/portfolio/static/js/main.e8e499a9.js",
+    "main.js": "/portfolio/static/js/main.d0a4d295.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/Q4Award.jpg": "/portfolio/static/media/Q4Award.7e1fbe15097f35f545ae.jpg",
     "static/media/RedisClustur.png": "/portfolio/static/media/RedisClustur.3cf07bde85a140a525f7.png",
     "static/media/UrlShortner.png": "/portfolio/static/media/UrlShortner.6fc1e8fa8e5212204864.png",
+    "static/media/HttpProtocol.png": "/portfolio/static/media/HttpProtocol.e28fe2722e154f3e3827.png",
     "static/media/ReactMeetup.jpg": "/portfolio/static/media/ReactMeetup.1c2c83d8117132f05e55.jpg",
     "static/media/TeamAward.jpg": "/portfolio/static/media/TeamAward.9ed5926787dd5428feb9.jpg",
     "static/media/Naukri.svg": "/portfolio/static/media/Naukri.bf9926af4b3686a4135dc9dfda444977.svg",
     "static/media/Doselect.webp": "/portfolio/static/media/Doselect.98dd8fdd50b64bdc108b.webp",
     "index.html": "/portfolio/index.html",
     "main.2834e50b.css.map": "/portfolio/static/css/main.2834e50b.css.map",
-    "main.e8e499a9.js.map": "/portfolio/static/js/main.e8e499a9.js.map",
+    "main.d0a4d295.js.map": "/portfolio/static/js/main.d0a4d295.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2834e50b.css",
-    "static/js/main.e8e499a9.js"
+    "static/js/main.d0a4d295.js"
   ]
 }
