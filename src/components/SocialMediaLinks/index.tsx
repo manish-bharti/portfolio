@@ -1,17 +1,10 @@
 import React from "react";
 import "./SocialMediaLinksStyle.scss";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const SocialMediaLinks: React.FC = () => {
   return (
     <div className="social-media-links">
-      <a
-        href="https://www.facebook.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FaFacebook size={16} />
-      </a>
       <a
         href="https://www.twitter.com"
         target="_blank"
@@ -20,11 +13,11 @@ const SocialMediaLinks: React.FC = () => {
         <FaTwitter size={16} />
       </a>
       <a
-        href="https://www.instagram.com"
+        href="https://www.github.com"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaInstagram size={16} />
+        <FaGithub size={16} />
       </a>
       <a
         href="https://www.linkedin.com"

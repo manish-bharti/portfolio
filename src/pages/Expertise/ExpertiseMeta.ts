@@ -1,5 +1,6 @@
 import RedisClustur from "../../assets/images/RedisClustur.png";
 import UrlShortner from "../../assets/images/UrlShortner.png";
+import HttpProtocol from "../../assets/images/HttpProtocol.png";
 interface MetaData {
   title: string;
   description: string;
@@ -54,6 +55,13 @@ export const metaData: MetaData = {
       title: "Full Stack",
       description: "This card contains information about Full Stack expertise.",
       thumbnail: UrlShortner,
+      priority: 2,
+      tag: "Full Stack",
+    },
+    {
+      title: "Full Stack",
+      description: "This card contains information about Full Stack expertise.",
+      thumbnail: HttpProtocol,
       priority: 2,
       tag: "Full Stack",
     },
