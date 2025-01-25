@@ -1,6 +1,9 @@
 import RedisClustur from "../../assets/images/RedisClustur.png";
 import UrlShortner from "../../assets/images/UrlShortner.png";
 import HttpProtocol from "../../assets/images/HttpProtocol.png";
+import Unsupervised from "../../assets/images/Unsupervised.png"
+
+
 interface MetaData {
   title: string;
   description: string;
@@ -65,14 +68,14 @@ export const metaData: MetaData = {
       priority: 2,
       tag: "Full Stack",
     },
-    // {
-    //   title: "AI/ML",
-    //   description:
-    //     "This card contains information about AI/ML expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.",
-    //   thumbnail: "ai-ml-thumbnail.jpg",
-    //   priority: 1,
-    //   tag: "AI/ML",
-    // },
+    {
+      title: "AI/ML",
+      description:
+        "This card contains information about AI/ML expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.This tab contains information about Full Stack expertise.",
+      thumbnail: Unsupervised,
+      priority: 1,
+      tag: "AI/ML",
+    },
   ],
 };
 
