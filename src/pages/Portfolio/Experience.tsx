@@ -16,8 +16,10 @@ const Experience: React.FC = () => {
               src={exp.logoSrc}
             />
           </h3>
+
           <p className="experience-time">{exp.timeperiod}</p>
           <pre className="experience-description">{exp.description}</pre>
+
           <div className="experience-technologies">
             {exp.technologies.map((tech, idx) => (
               <i key={idx} className="experience-chip">
@@ -25,6 +27,9 @@ const Experience: React.FC = () => {
               </i>
             ))}
           </div>
+          <h3 className="discover-more-container">
+            <a className="discover-more">Understand better</a>
+          </h3>
         </div>
       ))}
     </div>

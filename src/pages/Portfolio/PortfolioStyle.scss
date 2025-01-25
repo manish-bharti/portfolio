@@ -75,6 +75,16 @@
           white-space: pre-wrap; // Ensure text inside pre tag wraps
           word-wrap: break-word; // Break long words to prevent overflow
         }
+        .discover-more-container {
+          text-align: right;
+          .discover-more {
+            color: orange;
+            text-decoration: underline;
+            font-size: 12px;
+            cursor: pointer;
+            font-weight: 600;
+          }
+        }
       }
       .experience-technologies {
         .experience-chip {
