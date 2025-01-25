@@ -2,6 +2,7 @@ import RedisClustur from "../../assets/images/RedisClustur.png";
 import UrlShortner from "../../assets/images/UrlShortner.png";
 import HttpProtocol from "../../assets/images/HttpProtocol.png";
 import Unsupervised from "../../assets/images/Unsupervised.png"
+import DesignPatternsGo from "../../assets/images/DesignPatternsGo.png"
 
 
 interface MetaData {
@@ -51,7 +52,7 @@ export const metaData: MetaData = {
       title: "Full Stack",
       description: "This card contains information about Full Stack expertise.",
       thumbnail: RedisClustur,
-      priority: 2,
+      priority: 1,
       tag: "Full Stack",
     },
     {
@@ -65,7 +66,14 @@ export const metaData: MetaData = {
       title: "Full Stack",
       description: "This card contains information about Full Stack expertise.",
       thumbnail: HttpProtocol,
-      priority: 2,
+      priority: 3,
+      tag: "Full Stack",
+    },
+    {
+      title: "Full Stack",
+      description: "This card contains information about Full Stack expertise.",
+      thumbnail: DesignPatternsGo,
+      priority: 1,
       tag: "Full Stack",
     },
     {
