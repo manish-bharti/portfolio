@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.91bbc0c5.css",
-    "main.js": "/portfolio/static/js/main.5d3c7e45.js",
+    "main.js": "/portfolio/static/js/main.00f60943.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/Q4Award.jpg": "/portfolio/static/media/Q4Award.7e1fbe15097f35f545ae.jpg",
     "static/media/RedisClustur.png": "/portfolio/static/media/RedisClustur.3cf07bde85a140a525f7.png",
     "static/media/UrlShortner.png": "/portfolio/static/media/UrlShortner.6fc1e8fa8e5212204864.png",
     "static/media/Unsupervised.png": "/portfolio/static/media/Unsupervised.74e938b2d7f93c55103c.png",
+    "static/media/DesignPatternsGo.png": "/portfolio/static/media/DesignPatternsGo.ec0b51bdb3706bdbaac6.png",
     "static/media/HttpProtocol.png": "/portfolio/static/media/HttpProtocol.e28fe2722e154f3e3827.png",
     "static/media/ReactMeetup.jpg": "/portfolio/static/media/ReactMeetup.1c2c83d8117132f05e55.jpg",
     "static/media/TeamAward.jpg": "/portfolio/static/media/TeamAward.9ed5926787dd5428feb9.jpg",
@@ -14,11 +15,11 @@
     "static/media/Doselect.webp": "/portfolio/static/media/Doselect.98dd8fdd50b64bdc108b.webp",
     "index.html": "/portfolio/index.html",
     "main.91bbc0c5.css.map": "/portfolio/static/css/main.91bbc0c5.css.map",
-    "main.5d3c7e45.js.map": "/portfolio/static/js/main.5d3c7e45.js.map",
+    "main.00f60943.js.map": "/portfolio/static/js/main.00f60943.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91bbc0c5.css",
-    "static/js/main.5d3c7e45.js"
+    "static/js/main.00f60943.js"
   ]
 }
