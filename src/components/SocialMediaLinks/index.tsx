@@ -13,14 +13,14 @@ const SocialMediaLinks: React.FC = () => {
         <FaTwitter size={16} />
       </a>
       <a
-        href="https://www.github.com"
+        href="https://github.com/manish-bharti"
         target="_blank"
         rel="noopener noreferrer"
       >
         <FaGithub size={16} />
       </a>
       <a
-        href="https://www.linkedin.com"
+        href="https://www.linkedin.com/in/manish-bharti-a94508194/"
         target="_blank"
         rel="noopener noreferrer"
       >
