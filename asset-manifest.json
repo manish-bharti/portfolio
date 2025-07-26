@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e958834c.css",
-    "main.js": "/portfolio/static/js/main.02c81166.js",
+    "main.js": "/portfolio/static/js/main.8c971d4e.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/Q4Award.jpg": "/portfolio/static/media/Q4Award.7e1fbe15097f35f545ae.jpg",
     "static/media/RedisClustur.png": "/portfolio/static/media/RedisClustur.3cf07bde85a140a525f7.png",
@@ -11,15 +11,16 @@
     "static/media/HttpProtocol.png": "/portfolio/static/media/HttpProtocol.e28fe2722e154f3e3827.png",
     "static/media/ReactMeetup.jpg": "/portfolio/static/media/ReactMeetup.1c2c83d8117132f05e55.jpg",
     "static/media/TeamAward.jpg": "/portfolio/static/media/TeamAward.9ed5926787dd5428feb9.jpg",
+    "static/media/google_logo.jpg": "/portfolio/static/media/google_logo.00f275fca386c38e3fa0.jpg",
     "static/media/Naukri.svg": "/portfolio/static/media/Naukri.bf9926af4b3686a4135dc9dfda444977.svg",
     "static/media/Doselect.webp": "/portfolio/static/media/Doselect.98dd8fdd50b64bdc108b.webp",
     "index.html": "/portfolio/index.html",
     "main.e958834c.css.map": "/portfolio/static/css/main.e958834c.css.map",
-    "main.02c81166.js.map": "/portfolio/static/js/main.02c81166.js.map",
+    "main.8c971d4e.js.map": "/portfolio/static/js/main.8c971d4e.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e958834c.css",
-    "static/js/main.02c81166.js"
+    "static/js/main.8c971d4e.js"
   ]
 }
