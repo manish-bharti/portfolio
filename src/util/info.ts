@@ -1,5 +1,6 @@
 import NaukriLogo from "../assets/images/Naukri.svg";
 import DoselectLogo from "../assets/images/Doselect.webp";
+import GoogleLogo from "../assets/images/google_logo.jpg";
 
 interface InfoData {
   title: string;
@@ -15,8 +16,8 @@ export const aboutSection: string = `<p>
                                      i’m always exploring new ideas and improving along the way.
                                       </p>
                                       <p>
-                                      Currently I'm Senior Software Engineer at <strong>Doselect</strong>
-                                      specializing in performance and accessibility in both desktop and web application.
+                                      Currently I'm  Software Engineer at <strong>Google</strong>
+                                      specializing in performance and accessibility in web application.
                                       </p>
                                      
                                                                     
@@ -29,8 +30,25 @@ export const personnelInfo: InfoData = {
 };
 
 export const experience = [
+   {
+    timeperiod: "June 2025 - Present",
+    title: "Software Engineer - L3",
+    company: "Google",
+    logoSrc: GoogleLogo,
+    description:
+      "Figuring out how thimgs work's",
+    technologies: [
+      "Angular",
+      "C++",
+      "GCP",
+      "Golang",
+      "NodeJs",
+      "Material Ui Design",
+      "Protocol Buffers",
+    ],
+  },
   {
-    timeperiod: "May 2023 - Present",
+    timeperiod: "May 2023 - June - 2025",
     title: "Senior Software Engineer",
     company: "Doselect By Naukri",
     logoSrc: DoselectLogo,
